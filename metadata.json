@@ -1,0 +1,8 @@
+{
+  "name": "Remix Calculadora de Dano T20",
+  "description": "Calculadora de dano e acerto crítico para o sistema de RPG Tormenta 20 (T20), feita por TDAH RPGs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
