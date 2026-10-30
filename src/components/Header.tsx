@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({
               Calculadora de Dano T20
             </h1>
             <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
-              Tormenta 20
+              por TDAH RPGs
             </span>
           </div>
         </div>
