@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/TDAH-RPGs/',
+    base: '/calculadora-de-dano/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

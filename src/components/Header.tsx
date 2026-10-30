@@ -6,6 +6,7 @@
 import React from 'react';
 import { RotateCcw, Layers, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+import logoImg from '../assets/logo_TDAH.png';
 
 interface HeaderProps {
   onReset: () => void;
@@ -27,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-lg bg-stone-950 border border-stone-800 flex items-center justify-center shadow-sm overflow-hidden shrink-0">
             <img
-              src="/favicon.png"
+              src={logoImg}
               alt="TDAH RPGs"
               className="w-full h-full object-contain p-0.5"
             />

@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { Shield, Table, Eye, X, ChevronDown, Sparkles, Heart, Swords, Zap, Flame } from 'lucide-react';
 import { T20_THREATS, CreatureThreat, getThreatByND, getTierColor } from '../utils/threats';
+import tabela23AImg from '../assets/tabela_2_3_a.png';
 
 interface EnemyStatsProps {
   enemyDefense: number;
@@ -310,7 +311,7 @@ export const EnemyStats: React.FC<EnemyStatsProps> = ({
             </div>
             <div className="p-4 bg-stone-100 dark:bg-stone-950 flex flex-col items-center">
               <img
-                src="/assets/aistudio/tabela_do_amea_as_7fe4a108.png"
+                src={tabela23AImg}
                 alt="Tabela 2-3 A: Parâmetros de Criaturas Solos"
                 className="w-full max-h-[70vh] object-contain rounded-lg border border-stone-300 dark:border-stone-800 shadow"
               />

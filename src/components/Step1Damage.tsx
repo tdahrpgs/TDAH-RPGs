@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { T20_BASE_WEAPONS, getSteppedDamage, getDiceAverage, ExtraDicePool } from '../utils/calculator';
 import { Flame, Sparkles, Plus, Minus, Dices, ChevronDown, Zap, Table, Trash2, X } from 'lucide-react';
+import tabela32Img from '../assets/tabela_3_2.png';
 
 interface Step1Props {
   baseDamageIndex: number;
@@ -556,15 +557,9 @@ export const Step1Damage: React.FC<Step1Props> = ({
 
             <div className="p-4 overflow-y-auto flex-1 flex flex-col items-center bg-stone-100 dark:bg-stone-950">
               <img
-                src="/public/assets/aistudio/Calculadora_de_Cr_tico_e_Tabelas_b88aa7e8"
+                src={tabela32Img}
                 alt="Tabela 3-2: Dano de Armas oficial do Tormenta 20"
                 className="max-w-full rounded-lg border border-stone-300 dark:border-stone-800 shadow-md object-contain"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  if (!target.src.includes('image_56c035ff.png')) {
-                    target.src = '/public/assets/aistudio/image_56c035ff.png';
-                  }
-                }}
               />
             </div>
 
