@@ -435,6 +435,22 @@ export default function App() {
             }}
           />
         )}
+
+        {/* Footer com Licença e Avisos Legais */}
+        <footer className="mt-14 pt-6 pb-2 border-t border-stone-200 dark:border-stone-800 text-stone-500 dark:text-stone-400 text-xs">
+          <div className="flex items-center gap-2 mb-2.5 font-semibold text-stone-800 dark:text-stone-200 text-sm">
+            <span role="img" aria-label="Pergaminho">📜</span>
+            <span>Licença e Avisos Legais</span>
+          </div>
+          <ul className="space-y-1.5 list-disc list-inside leading-relaxed text-stone-600 dark:text-stone-400">
+            <li>
+              O sistema <strong className="font-semibold text-stone-700 dark:text-stone-300">Tormenta 20</strong> é uma criação de Marcelo Cassaro, Guilherme Dei Svaldi, Leonel Caldela, J.M. Trevisan e Rogério Saladino, publicado e de propriedade da <strong className="font-semibold text-stone-700 dark:text-stone-300">Jambô Editora</strong>.
+            </li>
+            <li>
+              Esta calculadora é um projeto independente da comunidade criado por <strong className="font-semibold text-stone-700 dark:text-stone-300">TDAH RPGs</strong> para fins educacionais e auxílio a mestres e jogadores de mesa.
+            </li>
+          </ul>
+        </footer>
       </main>
 
       {/* Floating Bottom Bar for Mobile Only (Hidden on Desktop) */}
